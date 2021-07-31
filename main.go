@@ -1,9 +1,9 @@
 package main
 
-import "myappEcho/routes"
+import "myappEcho/app"
 
 func main() {
-	e := routes.Init()
+	e := app.Init()
 
 	e.Logger.Fatal(e.Start(":8080"))
 

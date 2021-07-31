@@ -1,4 +1,4 @@
-package routes
+package app
 
 import (
 	"net/http"
@@ -10,7 +10,7 @@ func Init() *echo.Echo {
 	e := echo.New()
 
 	e.GET("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "hello Echo...")
+		return c.String(http.StatusOK, "hello Echo...dskjfnslkfs")
 	})
 
 	return e
