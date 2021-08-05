@@ -1,6 +1,6 @@
 package main
 
-import "myappEcho/app"
+import "github.com/albabulil/go-myappEcho/app"
 
 func main() {
 	e := app.Init()
